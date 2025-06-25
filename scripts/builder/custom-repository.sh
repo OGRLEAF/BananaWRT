@@ -10,4 +10,5 @@
 #
 
 # Add a feed source (Closed source)
-echo 'src-git additional_pack https://github.com/SuperKali/openwrt-packages' >> feeds.conf.default
+# echo 'src-git additional_pack https://github.com/SuperKali/openwrt-packages' >> feeds.conf.default
+echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
