@@ -18,7 +18,7 @@ on:
     - cron: 0 0 1 * *
 
 env:
-  REPO_URL: https://github.com/OGRLEAF/BananaWRT
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: 24.10.1
   BANANAWRT_RELEASE: stable
   FEEDS_CONF: feeds.conf.default
