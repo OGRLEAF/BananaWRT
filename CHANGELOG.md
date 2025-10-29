@@ -3,6 +3,139 @@
 All notable changes to **BananaWRT** will be documented in this file.
 
 ---
+## [2025-10-20]
+
+### 🧩 Additional Packages
+
+- 🐛 quectel-cm: fix no internet detection by @SuperKali  
+- 🐛 `banana-utils`: fix missing dependency by @SuperKali  
+- 🔼 workflow: bump version of matrix builder by @SuperKali  
+- ➕ `banana-utils`: add timeout on banner and bump version by @SuperKali  
+
+### 🍌 BananaWRT Core
+
+- 🔼 build(deps): bump softprops/action-gh-release from 2.3.4 to 2.4.1 (#100) by @dependabot[bot]  
+- 🔼 build(deps): bump softprops/action-gh-release from 2.3.3 to 2.3.4 (#99) by @dependabot[bot]  
+- 🔼 bump immortalwrt stable to version v24.10.3 by @SuperKali  
+
+---
+
+## [2025-09-24]
+
+### 🧩 Additional Packages
+
+- 🔼 build(deps): bump actions/download-artifact from 4.3.0 to 5.0.0 (#9) by @dependabot[bot]  
+- 🔼 build(deps): bump actions/checkout from 4.2.2 to 5.0.0 (#10) by @dependabot[bot]  
+- 🔼 build(deps): bump samkirkland/ftp-deploy-action from 4.3.5 to 4.3.6 (#11) by @dependabot[bot]  
+
+### 🍌 BananaWRT Core
+
+- 🔼 bump immortalwrt to version v24.10.3 (#95) by @SuperKali  
+- 🔼 build(deps): bump softprops/action-gh-release from 2.3.2 to 2.3.3 (#93) by @dependabot[bot]  
+- 🔼 build(deps): bump actions/setup-python from 5 to 6 (#94) by @dependabot[bot]  
+- 🐛 stable - prevent ethernet led from blinking unexpectedly by @SuperKali  
+- 🔄 docs: update changelog for 2025-08-30 (#92) by @SuperKali  
+
+---
+
+## [2025-08-30]
+
+### 🍌 BananaWRT Core
+
+- ➕ workflow: add nproc option on selfhost by @SuperKali  
+- 🐛 prevent ethernet led from blinking unexpectedly by @SuperKali  
+- 🔄 docs: update changelog for 2025-08-29 (#91) by @SuperKali  
+
+---
+
+## [2025-08-29]
+
+### 🍌 BananaWRT Core
+
+- 🐛 patch-manager: fix count files by @SuperKali  
+- 🐛 patch-manager: fix patch dir by @SuperKali  
+- 🐛 patch-manager: fix source to formatter.sh by @SuperKali  
+- 🐛 patch-manager: fix source to formatter.sh by @SuperKali  
+- ➕ scripts: add patch-manager to handle all custom stuff by @SuperKali  
+- 🐛 patch: fix space on name of the driver by @SuperKali  
+- ➕ kernel: add new directory for add custom kernel configuration and add a following patch by @SuperKali  
+
+---
+
+## [2025-08-23]
+
+### 🧩 Additional Packages
+
+- ➕ `luci-app-fan`: add pwm inverted option by @SuperKali  
+
+---
+
+## [2025-08-19]
+
+### 🧩 Additional Packages
+
+- ➕ `luci-app-fan`: add support to fibocom fm160 by @SuperKali  
+- 🐛 `luci-app-fan`: fix at+temp for fibocom fm350 by @SuperKali  
+- ➕ `luci-app-fan`: add at+temp command on fm350 by @SuperKali  
+- 🐛 quectel-cm: fix wrong dependency by @SuperKali  
+- ➕ `luci-app-fan`: add automatic modem detection by @SuperKali  
+
+### 🍌 BananaWRT Core
+
+- 🔼 build(deps): bump actions/checkout from 4 to 5 (#88) by @dependabot[bot]  
+- 🔄 docs: update changelog for 2025-08-18 (#87) by @SuperKali  
+
+---
+
+## [2025-08-18]
+
+### 🧩 Additional Packages
+
+- 🐛 fix quectel/fibocom pcie issues by @SuperKali  
+- 🛠️ testing configuration if it works or not on quectel-cm by @SuperKali  
+- 🛠️ quectel-cm: fixing issue that sometime connection not working by @SuperKali  
+- ➕ luci-proto-quectel: add support for mhi devices (pcie) by @SuperKali  
+
+### 🍌 BananaWRT Core
+
+- 🔼 build(deps): bump actions/download-artifact from 4 to 5 (#86) by @dependabot[bot]  
+
+---
+
+## [2025-08-01]
+
+### 🧩 Additional Packages
+
+- 🔼 `luci-app-3ginfo` and hide temperature when is zero by @SuperKali  
+- 🛠️ `luci-app-3ginfo`-lite: correct grammar issue by @SuperKali  
+- 🛠️ adding new packages: luci-proto-quectel & quectel-cm by @SuperKali  
+
+### 🍌 BananaWRT Core
+
+- 🗑️ scripts: remove luci-proto-quectel & quectel-cm from stock packages by @SuperKali  
+- 🏗️ workflow: build sdk matrix, change ftp action to manual command by @SuperKali  
+- 🔄 docs: update changelog for 2025-07-12 (#84) by @SuperKali  
+
+---
+
+## [2025-07-12]
+
+### 🍌 BananaWRT Core
+
+- 🔼 bump (stable) immortalwrt to version v24.10.2 by @SuperKali  
+- 🛠️ workflow: sdk added nproc input by @SuperKali  
+
+---
+
+## [2025-06-26]
+
+### 🍌 BananaWRT Core
+
+- 🔼 bump immortalwrt to version v24.10.2 (#80) by @SuperKali  
+- 🔄 docs: update changelog for 2025-06-19 (#79) by @SuperKali  
+
+---
+
 ## [2025-06-19]
 
 ### 🧩 Additional Packages
@@ -239,4 +372,4 @@ All notable changes to **BananaWRT** will be documented in this file.
 ---
 
 🛠️ Maintained with ❤️ by [BananaWRT](https://github.com/SuperKali/BananaWRT)  
-📅 Release date: **June 19, 2025**
+📅 Release date: **October 20, 2025**
